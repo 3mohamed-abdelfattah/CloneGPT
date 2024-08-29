@@ -1,0 +1,9 @@
+@import url("./_fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-inter font-normal bg-background;
+}
