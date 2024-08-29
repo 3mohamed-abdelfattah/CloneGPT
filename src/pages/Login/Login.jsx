@@ -34,7 +34,7 @@ export const Login = () => {
 
           <div className="text-sm text-[#2E3339] font-medium text-center mt-[14px]">
             Don’t have an account?{" "}
-            <Link to="signup" className="text-primary">
+            <Link to="/ChatGPT/signup" className="text-primary">
               Sign up
             </Link>
           </div>
