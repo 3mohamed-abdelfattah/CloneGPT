@@ -5,7 +5,15 @@
 @tailwind utilities;
 
 body {
-  @apply font-inter font-normal font-medium bg-background;
+  @apply font-inter font-medium bg-background;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 /* * {

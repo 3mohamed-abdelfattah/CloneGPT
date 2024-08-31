@@ -13,6 +13,9 @@ export default {
         TextBackground: "#444654",
       },
     },
+    screens: {
+      'md': '950px',
+    },
   },
   plugins: [],
 };
