@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Welcome } from "@/pages/Welcome";
 import { Login } from "@/pages/Login";
 import { StartScreen } from "@/pages/StartScreen";
+import { SignUp } from "@/pages/SignUp/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: "ChatGPT/signup",
-    element: <Login />,
+    element: <SignUp />,
   },
   {
     path: "ChatGPT/start",

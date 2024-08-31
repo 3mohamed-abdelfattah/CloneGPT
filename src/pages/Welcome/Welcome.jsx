@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { GPTLogo } from "../../utils/icons.util";
+import { GPTLogo } from "@/utils/icons.util";
 
 export const Welcome = () => {
   return (

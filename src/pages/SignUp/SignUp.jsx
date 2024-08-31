@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { GPTLogo, Google, Microsoft } from "@/utils/icons.util";
 import { useState } from "react";
 
-export const Login = () => {
+export const SignUp = () => {
 
   const [mail, setMail] = useState('')
   const navigate = useNavigate();
@@ -47,6 +47,17 @@ export const Login = () => {
                 className="border-[#C3C8CF] border rounded p-4 focus:outline-primary"
               />
             </div>
+            <div className="flex flex-col gap-1">
+              <label htmlFor="email" className="text-[#6d6e70]">
+                Password
+              </label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                className="border-[#C3C8CF] border rounded p-4 focus:outline-primary"
+              />
+            </div>
             <button
               type="button"
               className="text-white text-[15px] font-medium bg-primary w-full py-3 px-2 rounded hover:bg-emerald-700"
@@ -57,9 +68,9 @@ export const Login = () => {
           </form>
 
           <div className="text-sm text-[#2E3339] font-medium text-center mt-[14px]">
-            Don’t have an account?{" "}
+            have an account?{" "}
             <Link to="/ChatGPT/signup" className="text-primary">
-              Sign up
+              Login
             </Link>
           </div>
 
