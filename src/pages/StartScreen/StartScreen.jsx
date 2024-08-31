@@ -3,6 +3,7 @@ import { Plus, BigLight, Discord, Flash, Light, Limit, Logout, Send, Updates } f
 import { Link } from 'react-router-dom'
 
 export const StartScreen = () => {
+
     return (
         <div className='grid grid-cols-1 md:grid-cols-5 text-white h-screen'>
 
@@ -68,7 +69,7 @@ export const StartScreen = () => {
                     </div>
                 </div>
                 <div className='grid w-full px-4 md:px-0'>
-                    <div className='flex items-center mt-24 mb-14 mx-48 h-12 bg-[#40414E] rounded border-1 border-[#303139]'>
+                    <div className='flex mx-2 md:mx-48 items-center mt-24 mb-14 h-12 bg-[#40414E] rounded border-1 border-[#303139]'>
                         <input className='flex-1 h-full bg-[#40414E] p-3' />
                         <span className='mx-3'><Send /></span>
                     </div>

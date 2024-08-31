@@ -24,8 +24,8 @@ export const Login = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex justify-center items-center bg-white">
-      <div className="flex flex-col items-center gap-14 w-full">
+    <div className="min-h-screen w-fill flex justify-center items-center bg-white">
+      <div className="flex flex-col items-center gap-14 w-fill">
         <GPTLogo />
 
         <div className="sm:w-96 w-full px-7">
