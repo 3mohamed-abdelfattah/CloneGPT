@@ -29,7 +29,7 @@ This repository contains a clone of the user interface for ChatGPT, built using 
     <td><img src="https://github.com/user-attachments/assets/ec5277b3-de3e-400a-879f-818ac93d7d3f" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/13fdfbd2-4bd2-4b4b-9525-21e2364f63a4" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td colspan="2"><img src="https://github.com/user-attachments/assets/13fdfbd2-4bd2-4b4b-9525-21e2364f63a4" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
 
