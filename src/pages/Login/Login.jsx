@@ -1,14 +1,35 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { GPTLogo, Google, Microsoft } from "../../utils/icons.util";
+import { useState } from "react";
 
 export const Login = () => {
+
+  const [mail, setMail] = useState('')
+  const navigate = useNavigate();
+
+  const handleMailChange = (e) => {
+    const value = e.target.value;
+    setMail(value);
+  };
+
+  const handleClick = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (mail === '') {
+      alert('Enter your email');
+    } else if (!emailRegex.test(mail)) {
+      alert('Please enter a valid email address');
+    } else {
+      navigate('/ChatGPT/start');
+    }
+  };
+
   return (
     <div className="min-h-screen w-full flex justify-center items-center bg-white">
       <div className="flex flex-col items-center gap-14 w-full">
         <GPTLogo />
 
         <div className="sm:w-96 w-full px-7">
-          <div className="text-[#2E3339] text-[31px] font-bold">
+          <div className="text-[#2E3339] text-[31px] font-bold text-center	">
             Welcome back
           </div>
 
@@ -21,12 +42,15 @@ export const Login = () => {
                 type="email"
                 name="email"
                 id="email"
+                value={mail}
+                onChange={handleMailChange}
                 className="border-[#C3C8CF] border rounded p-4 focus:outline-primary"
               />
             </div>
             <button
               type="button"
-              className="text-white text-[15px] font-medium bg-primary w-full py-3 px-2 rounded"
+              className="text-white text-[15px] font-medium bg-primary w-full py-3 px-2 rounded hover:bg-emerald-700"
+              onClick={handleClick}
             >
               Continue
             </button>

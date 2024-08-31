@@ -8,7 +8,7 @@ export const Welcome = () => {
         <div className="text-white flex justify-center mb-5">
           <GPTLogo />
         </div>
-        <div className="text-white text-[15px] font-medium text-center">
+        <div className="text-white text-[15px] font-bold text-center">
           Welcome to ChatGPT
         </div>
         <div className="text-white text-[15px] font-medium text-center mt-[5px]">

@@ -5,5 +5,9 @@
 @tailwind utilities;
 
 body {
-  @apply font-inter font-normal bg-background;
+  @apply font-inter font-normal font-medium bg-background;
 }
+
+/* * {
+  border: 1px solid red;
+} */

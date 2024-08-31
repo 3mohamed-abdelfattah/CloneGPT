@@ -10,6 +10,7 @@ export default {
         primary: "#0FA47F",
         secondary: "#5536DA",
         background: "#343541",
+        TextBackground: "#444654",
       },
     },
   },
