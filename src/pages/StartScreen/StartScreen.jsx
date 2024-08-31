@@ -8,7 +8,7 @@ export const StartScreen = () => {
     const [result, setResult] = useState('');
 
     const handleSearch = () => {
-        setResult(`You searched for: ${searchQuery}`);
+        setResult(searchQuery);
     };
 
     const styles = {
@@ -22,7 +22,7 @@ export const StartScreen = () => {
 
     return (
         result ? (
-            <MainScreen />
+            <MainScreen search={searchQuery} />
         ) : (
             <div className='grid grid-cols-1 md:grid-cols-5 text-white h-screen'>
                 {/* SideBar */}

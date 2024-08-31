@@ -15,7 +15,3 @@ html {
 ::-webkit-scrollbar {
   width: 0px;
 }
-
-* {
-  border: 1px solid red;
-}
