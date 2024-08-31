@@ -15,6 +15,10 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
+    path: "ChatGPT/signup",
+    element: <Login />,
+  },
+  {
     path: "ChatGPT/start",
     element: <StartScreen />
   },
