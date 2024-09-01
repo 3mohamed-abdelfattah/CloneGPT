@@ -16,7 +16,7 @@ export const MainScreen = (props) => {
         DescriptionTextGap: 'grid gap-4 justify-items-center',
         SideBarText: 'flex items-center gap-3',
         ResponseContainer: 'flex gap-8 w-full p-2 md:pl-48 my-5',
-        ResponseText: 'text-sm md:text-base leading-7 max-w-2xl text-left text-white',
+        ResponseText: 'text-sm md:text-base leading-7 max-w-2xl text-left text-white text-ellipsis overflow-hidden',
     };
 
     return (
