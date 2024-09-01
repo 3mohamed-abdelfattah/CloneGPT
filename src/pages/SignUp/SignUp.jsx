@@ -30,7 +30,7 @@ export const SignUp = () => {
 
         <div className="sm:w-96 w-full px-7">
           <div className="text-[#2E3339] text-[31px] font-bold text-center	">
-            Welcome back
+            Welcome To ChatGPT
           </div>
 
           <form className="mt-6 flex flex-col gap-3">
