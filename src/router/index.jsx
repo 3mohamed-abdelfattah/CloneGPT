@@ -8,19 +8,19 @@ import { SignUp } from "@/pages/SignUp/SignUp";
 
 const router = createBrowserRouter([
   {
-    path: "/ChatGPT/",
+    path: "/CloneGPT/",
     element: <Welcome />,
   },
   {
-    path: "/ChatGPT/login",
+    path: "/CloneGPT/login",
     element: <Login />,
   },
   {
-    path: "/ChatGPT/signup",
+    path: "/CloneGPT/signup",
     element: <SignUp />,
   },
   {
-    path: "/ChatGPT/start",
+    path: "/CloneGPT/start",
     element: <StartScreen />
   },
 ]);

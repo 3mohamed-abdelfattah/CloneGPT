@@ -19,7 +19,7 @@ export const SignUp = () => {
     } else if (!emailRegex.test(mail)) {
       alert('Please enter a valid email address');
     } else {
-      navigate('/ChatGPT/start');
+      navigate('/CloneGPT/start');
     }
   };
 
@@ -69,7 +69,7 @@ export const SignUp = () => {
 
           <div className="text-sm text-[#2E3339] font-medium text-center mt-[14px]">
             have an account?{" "}
-            <Link to="/ChatGPT/signup" className="text-primary">
+            <Link to="/CloneGPT/signup" className="text-primary">
               Login
             </Link>
           </div>

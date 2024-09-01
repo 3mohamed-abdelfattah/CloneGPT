@@ -24,11 +24,11 @@ export const MainScreen = (props) => {
             {/* SideBar */}
             <div className='grid col-span-1 bg-[#202123] content-between'>
                 <div>
-                    <Link to='/ChatGPT/start' className='flex items-center gap-4 py-4 px-4 text-[13.5px]/[27px] border-solid border-2 border-[#444654] m-2 rounded-md'>
+                    <Link to='/CloneGPT/start' className='flex items-center gap-4 py-4 px-4 text-[13.5px]/[27px] border-solid border-2 border-[#444654] m-2 rounded-md'>
                         <Plus />
                         <p>New chat</p>
                     </Link>
-                    <Link to='/ChatGPT/start' className='flex items-center gap-4 py-4 px-4 text-[13.5px]/[27px] border-solid border-2 bg-[#343540] border-[#343540] m-2 rounded-md'>
+                    <Link to='/CloneGPT/start' className='flex items-center gap-4 py-4 px-4 text-[13.5px]/[27px] border-solid border-2 bg-[#343540] border-[#343540] m-2 rounded-md'>
                         <Chat />
                         <p>Chatbot definition exp</p>
                         <Edit />
@@ -38,7 +38,7 @@ export const MainScreen = (props) => {
                 <div>
                     <hr className='mx-2 border-[#444654]' />
                     <div className='grid gap-9 p-5 text-sm'>
-                        <Link to='/ChatGPT/start' className={styles.SideBarText}>
+                        <Link to='/CloneGPT/start' className={styles.SideBarText}>
                             <Delete />
                             <p className='leading-7'>Clear conversations</p>
                         </Link>
@@ -54,7 +54,7 @@ export const MainScreen = (props) => {
                             <Updates />
                             <p className='leading-7'>Updates & FAQ</p>
                         </Link>
-                        <Link to='/ChatGPT/login' className={styles.SideBarText}>
+                        <Link to='/CloneGPT/login' className={styles.SideBarText}>
                             <Logout />
                             <p className='leading-7'>Log out</p>
                         </Link>
@@ -94,7 +94,7 @@ export const MainScreen = (props) => {
                 {/* Search Bar */}
                 <div className='grid grid-row-3 w-full px-4 md:px-0 justify-items-center mt-8'>
                     <div className=''>
-                        <Link to='/ChatGPT/start' className='flex items-center gap-2 py-1 px-3 text-[13.5px]/[27px] border-solid border-2 border-[#444654] rounded-md'>
+                        <Link to='/CloneGPT/start' className='flex items-center gap-2 py-1 px-3 text-[13.5px]/[27px] border-solid border-2 border-[#444654] rounded-md'>
                             <Reload />
                             <p className='text-[#C5C5D1]'>Regenerate response</p>
                         </Link>

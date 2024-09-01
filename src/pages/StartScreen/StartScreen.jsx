@@ -28,7 +28,7 @@ export const StartScreen = () => {
                 {/* SideBar */}
                 <div className='grid col-span-1 bg-[#202123] content-between'>
                     <div>
-                        <Link to='/ChatGPT/main' className='flex items-center gap-4 py-4 px-4 text-[13.5px]/[27px] border-solid border-2 border-[#444654] m-2 rounded-md'>
+                        <Link to='/CloneGPT/main' className='flex items-center gap-4 py-4 px-4 text-[13.5px]/[27px] border-solid border-2 border-[#444654] m-2 rounded-md'>
                             <Plus />
                             <p>New chat</p>
                         </Link>
@@ -48,7 +48,7 @@ export const StartScreen = () => {
                                 <Updates />
                                 <p className='leading-7'>Updates & FAQ</p>
                             </Link>
-                            <Link to='/ChatGPT/login' className={styles.SideBarText}>
+                            <Link to='/CloneGPT/login' className={styles.SideBarText}>
                                 <Logout />
                                 <p className='leading-7'>Log out</p>
                             </Link>
