@@ -33,6 +33,28 @@ This repository contains a clone of the user interface for ChatGPT, built using 
   </tr>
 </table>
 
+# Project Structure Description
+
+- **src/**: The main source directory.
+  - **assets/**: Contains static assets like fonts and images.
+    - **fonts/**: Directory for custom font files (`.ttf`).
+    - **images/**: Contains images used in the project, such as `logo.png`.
+  - **pages/**: Houses the different pages of your application, each in its own folder.
+    - **Login/**: Includes files related to the Login page (`Login.jsx`, `index.js`).
+    - **MainScreen/**: Contains files for the Main Screen page (`MainScreen.jsx`, `index.js`).
+    - **SignUp/**: Holds the Sign-Up page files (`SignUp.jsx`, `index.js`).
+    - **StartScreen/**: Files related to the Start Screen (`StartScreen.jsx`, `index.js`).
+    - **Welcome/**: Contains the Welcome page files (`Welcome.jsx`, `index.js`).
+  - **router/**: Contains the routing logic (`index.js`) for navigating between different pages.
+  - **styles/**: Houses the CSS files for styling.
+    - **_fonts.css**: font-face declarations for custom fonts.
+    - **global.css**: Global styles that apply to the entire application.
+  - **utils/**: Contains utility files, which are helper functions and reusable code components.
+    - **functions.util.jsx**: Utility functions used across the application.
+    - **icons.util.jsx**: components related to icons.
+  - **App.jsx**: The root component of React application.
+  - **main.jsx**: The entry point of application where the React app is rendered.
+
 ## Installation
 
 1. **Clone the Repository:**
